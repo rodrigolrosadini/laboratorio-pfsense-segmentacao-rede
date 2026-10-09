@@ -42,6 +42,10 @@ Foi criada uma regra para permitir RDP do Windows 7 para o Windows Server:
 
 Também foi criada uma regra de bloqueio para o tráfego IPv4 da LAN com destino à rede `192.168.20.0/24`, posicionada abaixo da permissão específica de RDP e acima da regra geral de permissão da LAN.
 
+Evidência das regras configuradas no pfSense
+![Regras de firewall do pfSense](evidencias/regras-firewall-pfsense.png.png)
+
+
 ### 2. Firewall do Windows Server
 
 - Serviço Remote Desktop Services iniciado.
